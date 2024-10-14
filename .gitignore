@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AWS_CDK_DOTNET/v17/.suo
+*.vsidx
+/.vs/AWS_CDK_DOTNET/FileContentIndex/296d872e-daaf-41db-802a-e78f9412d4c6.vsidx
+/.vs/AWS_CDK_DOTNET/FileContentIndex/296d872e-daaf-41db-802a-e78f9412d4c6.vsidx
