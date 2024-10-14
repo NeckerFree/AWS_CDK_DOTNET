@@ -1,4 +1,5 @@
 using Amazon.CDK;
+using Amazon.CDK.AWS.S3;
 using Constructs;
 
 namespace Kit
@@ -7,7 +8,10 @@ namespace Kit
     {
         internal KitStack(Construct scope, string id, IStackProps props = null) : base(scope, id, props)
         {
-            // The code that defines your stack goes here
+            var bucket = new Bucket(this, "HelloWorldBucket", new BucketProps
+            {
+                Versioned = true, // Enable versioning on the bucket
+            });
         }
     }
 }

@@ -13,9 +13,12 @@ It uses the [.NET CLI](https://docs.microsoft.com/dotnet/articles/core/) to comp
 * `cdk diff`         compare deployed stack with current state
 * `cdk synth`        emits the synthesized CloudFormation template
 
+Reference: https://docs.aws.amazon.com/cdk/v2/guide/work-with-cdk-csharp.html
 Steps:
 1. npm install -g aws-cdk
 2. cdk init app --language csharp
+3. install aws cli: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+1. aws configure: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 <a name="readme-top"></a>
 
 <!--
